@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="icon" type="image/x-icon" href="../images/nisgaa.png">
+
+    <title>Language & Culture</title>
+</head>
+<body class="culture-page">
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="../index.html" class="nav__button">Home</a></li>
+                <li class="nav__item"><a href="culture.html" class="nav__button active">Language & Culture</a></li>
+                <li class="nav__item"><a href="community.html" class="nav__button">Community & Design</a></li>
+                <li class="nav__item"><a href="book.html" class="nav__button">Book</a></li>
+                <li class="nav__item"><a href="contact.html" class="nav__button">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+                    <div class="culture-glass-box" id="cultureTitleBox">
+                        <img class="culture-page-img" src="../images/culture-title.png" alt="Culture and Language Title"> 
+                            <div class="glass-box culture-image-caption">
+                                <p>A cultural carrier across generations</p>
+                            </div>
+                    </div> 
+    
+             <div class="culture-section-wrapper">
+                            <div class="culture-image-card">
+                                <img src="../images/culture-songs.png" alt="Singing and Dancing" class="culture-image">
+       
+                                
+                                <div class="glass-box culture-image-caption">
+                                    <p>Connecting to our Culture through song and dance, while strengthening the Nisg̱a'a Language.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="culture-summary-glass">
+                                <h3>A Living Cultural Carrier</h3>
+                                    <p>
+                                        The Nisg̱a'a language is a vital thread of living culture, carrying traditional stories, songs, ceremonies, teachings, 
+                                        and values across generations. Songs sung in Nisg̱a'a connect rhythm, land, and community, while ceremonies create sacred 
+                                        spaces where language and cultural belonging meet through shared practice.
+                                    </p>
+                                    <p>
+                                        Language strengthens our social bonds, identity, and connections to Elders' wisdom. Many Nisg̱a'a expressions hold profound 
+                                        cultural concepts that cannot be translated neatly into English—making respectful listening, learning, and community guidance 
+                                        essential to keeping these traditions vibrant and strong.
+                                    </p>
+                            </div>
+
+                            
+                <section class="principles-section">
+                    <div class="principles-column glass-box">
+                            <h2 class="section-title">Revitalization principles</h2>
+                                <ul class="principles-list">
+                                    <li>Preserve traditions through stories, songs, and ceremonies.</li>
+                                    <li>Value unique expressions and culturally specific ways of seeing the world.</li>
+                                    <li>Strengthen social bonds through shared learning experiences.</li>
+                                    <li>Centre Elders’ teachings and intergenerational knowledge sharing.</li>
+                                    <li>Support individual and collective identity with respectful learning opportunities.</li>
+                                </ul>
+                        </div>
+
+                                <div class="note-column glass-box">
+                                    <div class="accent-stripe"></div>
+                                        <div class="note-content">
+                                            <h3 class="note-title">A respectful learning note</h3>
+                                                <p>Language spellings and translations should be confirmed with Nisg̱a'a speakers and language authorities. 
+                                                    The examples below are included as supplied in the presentation and are not a substitute for community-led
+                                                    language instruction.</p>
+                                    </div>
+                                </div>
+                </section>
+
+
+<section class="glass-box examples-section">
+    <p class="examples-label">WORD STRUCTURE EXAMPLES</p>
+    <h2 class="examples-heading">For Discovering the Heart</h2>
+</section>
+    <div class="vocab-grid">
+        <div class="vocab-card">
+            <h4>g̱oot</h4>
+            <p class="vocab-label"><i>meaning,</i></p>
+            <p class="vocab-def">heart - the</p>
+        </div>
+
+        <div class="vocab-card">
+            <h4>gig̱il&#769;</h4>
+            <p class="vocab-label"><i>meaning,</i></p>
+            <p class="vocab-def">look for something/somebody - to</p>
+            <h4>gixgigil&#769;</h4>
+            <p class="vocab label"><i>plural</i></p>
+        </div>
+
+        <div class="vocab-card">
+            <h4>w&#769;e’eskw</h4>
+            <p class="vocab-label"><i>meaning,</i></p>
+            <p class="vocab-def">find something - to</p>
+        </div>
+
+        <div class="vocab-card">
+            <h4>Discovering the Heart</h4>
+            <p class="vocab-def">Here are some examples of ways to find words to put together a sentece in Nisg̱a'a.</p>
+        </div>
+    </div>
+</section>
+
+
+    <footer class="site-footer">
+        <div class="footer-content-wrapper">
+        
+                        
+                    <p class="footer-text">&copy; 2026 Terra Barton. All rights reserved.</p>
+
+       
+                <div class="footer-nav-wrapper">
+                    <button class="footer-toggle-btn nav__button">Menu ☰</button>
+
+                    <nav class="nav">
+                        <ul class="nav__list" id="footerMenuList">
+                            <li class="nav__item"><a href="../index.html" class="nav__button">Home</a></li>
+                            <li class="nav__item"><a href="culture.html" class="nav__button active">Culture</a></li>
+                            <li class="nav__item"><a href="community.html" class="nav__button">Community</a></li>
+                               <li class="nav__item"><a href="book.html" class="nav__button">Book</a></li>
+                            <li class="nav__item"><a href="contact.html" class="nav__button">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>    
+        </div>
+    </div> 
+</footer>
+
+       
+    <script>
+        function toggleFooterMenu() {
+         const menu = document.getElementById('footerMenuList');
+        menu.classList.toggle('is-open');
+        }
+    </script>
+
+        <script>
+            window.addEventListener('scroll', () => {
+                const titleBox = document.getElementById('cultureTitleBox');
+                if (window.scrollY > 40) {
+                    titleBox.classList.add('is-shrunk');
+                } else {
+                    titleBox.classList.remove('is-shrunk');
+                }
+            });
+        </script>
+</body>
+</html>
